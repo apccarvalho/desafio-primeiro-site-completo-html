@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <title>Contato</title>
+    <style>
+     html, body {
+        margin: 0;
+    }
+    body {
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .wrapper {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        background-color: aquamarine;
+    }
+    .main {
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+    }
+    .menu {
+        width: 15%;
+        background-color: rgb(213, 250, 252);
+        padding: 10px 20px 0px;
+    }
+    .header {
+        background-color: rgb(213, 250, 252);
+        min-height: 150px;
+    }
+    .content {
+        background-color: white;
+        min-height: 300px;
+        padding: 20px;
+    }
+    .footer {
+        background-color: rgb(213, 250, 252);
+        min-height: 150px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <img src="Menu.png" width="150" height="90" /><br>
+            <img src="Esteto.png" width="15" height="15" /><a href="index.html">Home</a><br>
+            <img src="Esteto.png" width="15" height="15" /><a href="about.html">Sobre a Clínica</a><br>
+            <img src="Esteto.png" width="15" height="15" /><a href="schedule.html">Horários</a><br>
+            <img src="Esteto.png" width="15" height="15" /><a href="contact.html">Contato</a><br>
+            <img src="Menu.png" width="150" height="90" />
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="Equipe.jpg" width="900" height="420" />
+                
+            </div>
+    
+            <div class="content">
+                <h3 id="contact">Entre em contato e agende o seu horário com um de nossos especialistas:</h3>
+                <p><strong>Telefone:</strong> (34)3831-4000</p>
+                <br>
+                <p><strong>Endereço:</strong> Rua Kleber Guarda, 1037 - Ouro Preto, Patrocínio - MG, 38740-000 </p>
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15095.354297469681!2d-46.99455349521314!3d-18.938538024630393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94afb1e4441d00f3%3A0x2f4fe57f5ba90ff5!2sEspa%C3%A7o%20Bela%20Vista!5e0!3m2!1spt-BR!2sbr!4v1667912150689!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br>
+                <p>Envie-nos uma mensagem e um de nossos atendentes entrará em contato:</p>
+                <br>
+                <form onsubmit="" method="get">
+                    <label>Nome</label><input type="text" name="name"/><br>
+                    <label>Email</label><input type="email" name="email"/><br>
+                    <label>Assunto</label><input type="text" name="subject"/><br>
+                    <label>Mensagem</label><input type="textarea" rows="10" cols="50" name="message"/><br>
+                    <button type="submit">Enviar</button><button type="reset">Limpar</button> 
+                </form>
+            </div>
+    
+            <div class="footer">
+                <h3>Nos encontre aqui:</h3>
+                <p><strong>Rua Kleber Guarda, 1037 - Ouro Preto, Patrocínio - MG, 38740-000</strong></p>
+                <p>(34)3831-4000</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

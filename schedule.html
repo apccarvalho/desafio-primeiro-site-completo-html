@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <title>Horários de Atendimento</title>
+    <style>
+     html, body {
+        margin: 0;
+    }
+    body {
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .wrapper {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        background-color: aquamarine;
+    }
+    .main {
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+    }
+    .menu {
+        width: 15%;
+        background-color: rgb(213, 250, 252);
+        padding: 10px 20px 0px;
+    }
+    .header {
+        background-color: rgb(213, 250, 252);
+        min-height: 150px;
+    }
+    .content {
+        background-color: white;
+        min-height: 300px;
+        padding: 20px;
+    }
+    .footer {
+        background-color: rgb(213, 250, 252);
+        min-height: 150px;
+    }
+    table thead th{
+        background: rgb(145, 145, 233);
+        color: white;
+    }
+    table tbody tr:nth-child(even) td{
+        background-color: rgb(207, 207, 241);
+    }
+    table tbody tr:hover td{
+        background-color: rgb(45, 211, 197);
+    }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <img src="Menu.png" width="150" height="90" /><br>
+            <img src="Esteto.png" width="15" height="15" /><a href="index.html">Home</a><br>
+            <img src="Esteto.png" width="15" height="15" /><a href="about.html">Sobre a Clínica</a><br>
+            <img src="Esteto.png" width="15" height="15" /><a href="schedule.html">Horários</a><br>
+            <img src="Esteto.png" width="15" height="15" /><a href="contact.html">Contato</a><br>
+            <img src="Menu.png" width="150" height="90" />
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="Sala.jpg " width="900" height="420" />
+              
+            </div>
+    
+            <div class="content">
+                <h1 id="schedule">Horários de Atendimento:</h1>
+                <h3>Abaixo, consulte os valores e horários de atendimento de nossos especialistas:</h3>
+                <table width ="500" align="center" cellspacing="0" cellpadding="5">
+                    <thead>
+                    <tr>
+                        <th>Serviços</th>
+                        <th>Segunda a Sexta</th>
+                        <th>Sábados</th>
+                        <th>Valores</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                         <td>Cardiologia</td>  
+                        <td>07h - 19h</td>
+                        <td>07h as 13h</td>
+                        <td>R$450,00</td>                        
+                    </tr>                                        
+                    <tr>
+                        <td>Fisioterapia</td>  
+                        <td>07h - 19h</td>
+                        <td>07h as 13h</td>
+                        <td>R$150,00</td>                        
+                    </tr>
+                    <tr>
+                        <td>Nutrição</td>  
+                        <td>07h - 19h</td>
+                        <td>07h as 13h</td>
+                        <td>R$150,00</td>                        
+                    </tr>
+                    <tr>
+                        <td>Psicologia</td>  
+                        <td>07h - 19h</td>
+                        <td>07h as 13h</td>
+                        <td>R$150,00</td>                        
+                    </tr>
+                    <tr>
+                        <td>Ortopedia</td>  
+                        <td>07h - 19h</td>
+                        <td>07h as 13h</td>
+                        <td>R$450,00</td>                        
+                    </tr>
+                </tbody>
+
+                </table>
+                
+            </div>
+    
+            <div class="footer">
+                <h3>Nos encontre aqui:</h3>
+                <p><strong>Rua Kleber Guarda, 1037 - Ouro Preto, Patrocínio - MG, 38740-000</strong></p>
+                <p>(34)3831-4000</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
